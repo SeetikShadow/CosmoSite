@@ -3,10 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
-body {
+body
+{
     font-family: Arial, sans-serif;
-    /* Основной фиолетовый космос на весь экран */
     background: url('6511984.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
@@ -16,23 +15,21 @@ body {
     min-height: 100vh;
     padding: 30px 20px;
 }
-
-.contact-container {
-    /* Компактная карточка с четкой текстурой туманности внутри */
+.contact-container
+{
     background: url('fantasy-style-galaxy-background.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 30px 35px;
     width: 100%;
-    max-width: 460px; /* Сделали контейнер чуть аккуратнее и компактнее */
+    max-width: 460px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     overflow: hidden;
 }
-
-/* Плотное затемнение, чтобы текст и поля были максимально контрастными и читаемыми */
-.contact-container::before {
+.contact-container::before
+{
     content: '';
     position: absolute;
     top: 0;
@@ -42,13 +39,13 @@ body {
     background: rgba(8, 8, 12, 0.78);
     z-index: 1;
 }
-
-.contact-container * {
+.contact-container *
+{
     position: relative;
     z-index: 2;
 }
-
-h1 {
+h1
+{
     font-size: 28px;
     font-weight: normal;
     text-align: center;
@@ -56,25 +53,25 @@ h1 {
     letter-spacing: 1px;
     color: #fff;
 }
-
-.form-group {
-    margin-bottom: 16px; /* Уменьшили отступы, чтобы форма стала компактнее */
+.form-group
+{
+    margin-bottom: 16px;
 }
-
-label {
+label
+{
     display: block;
     font-size: 12px;
     margin-bottom: 6px;
     color: #dfdfdf;
 }
-
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="tel"],
 input[type="number"],
 select,
-input[type="time"] {
+input[type="time"]
+{
     width: 100%;
     padding: 8px 12px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -84,18 +81,18 @@ input[type="time"] {
     outline: none;
     border-radius: 4px;
 }
-
-input:focus, select:focus {
+input:focus, select:focus
+{
     border-color: #9d4edd;
     box-shadow: 0 0 8px rgba(157, 78, 221, 0.5);
 }
-
-.email-wrapper {
+.email-wrapper
+{
     display: flex;
     gap: 8px;
 }
-
-.email-select {
+.email-select
+{
     width: 140px;
     background: rgba(0, 0, 0, 0.9);
     color: #fff;
@@ -103,28 +100,28 @@ input:focus, select:focus {
     padding: 8px;
     border-radius: 4px;
 }
-
-.datetime-grid {
+.datetime-grid
+{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1.2fr;
     gap: 8px;
 }
-
-.sub-label {
+.sub-label
+{
     font-size: 10px;
     color: #aaa;
     margin-bottom: 3px;
     display: block;
 }
-
-.radio-group {
+.radio-group
+{
     display: flex;
     flex-direction: column;
     gap: 6px;
     margin-top: 4px;
 }
-
-.radio-label, .checkbox-group label {
+.radio-label, .checkbox-group label
+{
     font-size: 12px;
     font-weight: normal;
     cursor: pointer;
@@ -133,23 +130,23 @@ input:focus, select:focus {
     gap: 8px;
     color: #dfdfdf;
 }
-
 input[type="radio"],
-input[type="checkbox"] {
+input[type="checkbox"]
+{
     accent-color: #9d4edd;
     width: 14px;
     height: 14px;
     cursor: pointer;
 }
-
-.checkbox-group {
+.checkbox-group
+{
     display: flex;
     align-items: center;
     gap: 10px;
     margin: 18px 0;
 }
-
-.submit-btn {
+.submit-btn
+{
     width: 100%;
     background: #ffffff;
     color: #000;
@@ -162,8 +159,8 @@ input[type="checkbox"] {
     border-radius: 4px;
     transition: all 0.2s ease;
 }
-
-.submit-btn:hover {
+.submit-btn:hover
+{
     background: #9d4edd;
     color: #fff;
 }
